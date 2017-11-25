@@ -1,0 +1,363 @@
+fileFormatVersion: 2
+guid: 2f86cdded9dd84e3789e9afb7f2a8d05
+timeCreated: 1511639661
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Char_Arma01_running
+    100002: CharBaseBone
+    100004: CharBaseBone_001
+    100006: CharBaseBone_002
+    100008: CharBaseBone_003
+    100010: CharBaseBone_004
+    100012: CharBaseBone_005
+    100014: CharBaseBone_006
+    100016: CharBaseBone_007
+    100018: CharBaseBone_008
+    100020: CharBaseBone_009
+    100022: CharBaseBone_010
+    100024: CharBaseBone_011
+    100026: CharBaseBone_012
+    100028: CharBaseBone_013
+    100030: CharBaseBone_014
+    100032: CharBaseBone_016
+    100034: CharBaseBone_017
+    100036: CharBaseBone_018
+    100038: CharBaseBone_019
+    100040: CharBaseBone_020
+    100042: CharBaseBone_021
+    100044: CharBaseBone_022
+    100046: CharBaseBone_023
+    100048: CharBaseBone_024
+    100050: CharBaseBone_025
+    100052: CharBaseBone_026
+    100054: CharBaseBone_027
+    100056: CharBaseBone_028
+    100058: CharBaseBone_029
+    100060: CharBaseBone_030
+    100062: CharBaseBone_031
+    100064: CharBaseBone_032
+    100066: CharBaseBone_033
+    100068: Plane
+    100070: Wifecarrying
+    100072: //RootNode
+    400000: Char_Arma01_running
+    400002: CharBaseBone
+    400004: CharBaseBone_001
+    400006: CharBaseBone_002
+    400008: CharBaseBone_003
+    400010: CharBaseBone_004
+    400012: CharBaseBone_005
+    400014: CharBaseBone_006
+    400016: CharBaseBone_007
+    400018: CharBaseBone_008
+    400020: CharBaseBone_009
+    400022: CharBaseBone_010
+    400024: CharBaseBone_011
+    400026: CharBaseBone_012
+    400028: CharBaseBone_013
+    400030: CharBaseBone_014
+    400032: CharBaseBone_016
+    400034: CharBaseBone_017
+    400036: CharBaseBone_018
+    400038: CharBaseBone_019
+    400040: CharBaseBone_020
+    400042: CharBaseBone_021
+    400044: CharBaseBone_022
+    400046: CharBaseBone_023
+    400048: CharBaseBone_024
+    400050: CharBaseBone_025
+    400052: CharBaseBone_026
+    400054: CharBaseBone_027
+    400056: CharBaseBone_028
+    400058: CharBaseBone_029
+    400060: CharBaseBone_030
+    400062: CharBaseBone_031
+    400064: CharBaseBone_032
+    400066: CharBaseBone_033
+    400068: Plane
+    400070: Wifecarrying
+    400072: //RootNode
+    2300000: Plane
+    3300000: Plane
+    4300000: Plane
+    4300002: Wifecarrying
+    7400000: Default Take
+    7400002: Char_Arma01Action
+    9500000: //RootNode
+    13700000: Wifecarrying
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Arma01_running
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_001
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_001/CharBaseBone_027
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_001/CharBaseBone_027/CharBaseBone_028
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_001/CharBaseBone_027/CharBaseBone_028/CharBaseBone_029
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_002
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_002/CharBaseBone_024
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_002/CharBaseBone_024/CharBaseBone_025
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_002/CharBaseBone_024/CharBaseBone_025/CharBaseBone_026
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_004
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_004/CharBaseBone_005
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_009
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_009/CharBaseBone_010
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_009/CharBaseBone_010/CharBaseBone_032
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_009/CharBaseBone_010/CharBaseBone_033
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_016
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_016/CharBaseBone_017
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_016/CharBaseBone_017/CharBaseBone_018
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_016/CharBaseBone_017/CharBaseBone_018/CharBaseBone_019
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_020
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_020/CharBaseBone_021
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_020/CharBaseBone_021/CharBaseBone_022
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_020/CharBaseBone_021/CharBaseBone_022/CharBaseBone_023
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_011
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_011/CharBaseBone_014
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_011/CharBaseBone_014/CharBaseBone_030
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_012
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_012/CharBaseBone_013
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_012/CharBaseBone_013/CharBaseBone_031
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Wifecarrying
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Char_Arma01Action
+      takeName: Char_Arma01Action
+      firstFrame: -1
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Arma01_running
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_001
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_001/CharBaseBone_027
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_001/CharBaseBone_027/CharBaseBone_028
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_001/CharBaseBone_027/CharBaseBone_028/CharBaseBone_029
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_002
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_002/CharBaseBone_024
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_002/CharBaseBone_024/CharBaseBone_025
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_002/CharBaseBone_024/CharBaseBone_025/CharBaseBone_026
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_004
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_004/CharBaseBone_005
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_009
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_009/CharBaseBone_010
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_009/CharBaseBone_010/CharBaseBone_032
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_009/CharBaseBone_010/CharBaseBone_033
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_016
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_016/CharBaseBone_017
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_016/CharBaseBone_017/CharBaseBone_018
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_016/CharBaseBone_017/CharBaseBone_018/CharBaseBone_019
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_020
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_020/CharBaseBone_021
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_020/CharBaseBone_021/CharBaseBone_022
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_006/CharBaseBone_007/CharBaseBone_008/CharBaseBone_020/CharBaseBone_021/CharBaseBone_022/CharBaseBone_023
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_011
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_011/CharBaseBone_014
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_011/CharBaseBone_014/CharBaseBone_030
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_012
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_012/CharBaseBone_013
+        weight: 1
+      - path: Char_Arma01_running/CharBaseBone/CharBaseBone_003/CharBaseBone_012/CharBaseBone_013/CharBaseBone_031
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Wifecarrying
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
