@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4943589551090898}
-  - component: {fileID: 114381204066918342}
+  - component: {fileID: 114830889153589784}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -40,7 +40,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114381204066918342
+--- !u!114 &114830889153589784
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -48,6 +48,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1794594409111752}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d74587c3b6e39c54ea4a4fdb17176d81, type: 3}
+  m_Script: {fileID: 11500000, guid: e2c1b9ae2bf97a6418ec9933c24ef4df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadTime: 2
+  treeStartPos: -10
+  fenceStartPos: 9
+  img: {fileID: 0}
+  anim: {fileID: 0}
+  txt: {fileID: 0}
+  playerController: {fileID: 0}
+  mapStart: {fileID: 0}
+  mapEnd: {fileID: 0}
+  tree: {fileID: 1060092840343916, guid: b4f605176dbec134ea6c608190931457, type: 2}
+  player: {fileID: 1674622801342734, guid: 4199a8205f68b764c8555077874039ec, type: 2}
+  fence: {fileID: 1214282304553632, guid: 5fa62e690d09e9e49a94caacbef4ed42, type: 2}
+  beer: {fileID: 1680128191726036, guid: 75b42278c8c14d54fa4c079d923dbab9, type: 2}
+  coffee: {fileID: 1631565737598626, guid: 89debe97eb4338b49864db6d209f7a07, type: 2}
+  treeWidth: 5
+  spawnHeight: 1
+  fenceWidth: 1.56
+  mapDistance: {x: 0, y: 0, z: 0}

@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     private bool toggle;
     public GameController gameController;
     public GameObject fallChecker;
-    private Vector3 fallStartLoc;
+    public Vector3 fallStartLoc;
     private Vector3 deltaVector;
     // Use this for initialization
     void Start()
@@ -29,23 +29,31 @@ public class PlayerController : MonoBehaviour
         toggle = true;
         gameController = FindObjectOfType(typeof(GameController)) as GameController;
 
-        rb = transform.Find("Avatar").gameObject.GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
         isFallen = false;
         fallStartLoc = fallChecker.transform.position;
 
-       // rb.centerOfMass = fallChecker.transform.position;
+        //rb.centerOfMass = fallChecker.transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
 
-       
-
+        if (!gameController)
+        {
+            gameController = FindObjectOfType(typeof(GameController)) as GameController;
+        }
+        if(!fallChecker)
+        {
+            fallChecker = GameObject.Find("FallChecker");
+        }
         if (!rb)
         {
-            rb = transform.Find("Avatar").gameObject.GetComponent<Rigidbody>();
+            rb = GetComponent<Rigidbody>();
         }
+
+
 
 
         //deltaVector = fallStartLoc - rb.gameObject.transform.position;
@@ -64,6 +72,19 @@ public class PlayerController : MonoBehaviour
                 debugEnabled = false;
                 toggle = true;
             }
+        }
+
+        Debug.Log(fallChecker.transform.position.y);
+        if (fallChecker.transform.position.y < (wifeFallTreshold) && !isFallen)
+        {
+            isFallen = true;
+        }
+
+        if (isFallen)
+        {
+            Debug.Log("Fallen");
+            StartCoroutine(GettingUp());
+
         }
 
 
@@ -88,7 +109,7 @@ public class PlayerController : MonoBehaviour
 
                     //rb.velocity = Vector3.right * turnSpeed;
                     transform.Translate(Vector3.right * turnSpeed);
-                    //rb.AddForce(Vector3.right * pivotForce, ForceMode.Force);
+                    rb.AddForce(Vector3.right * pivotForce, ForceMode.Force);
 
 
                 }
@@ -99,24 +120,16 @@ public class PlayerController : MonoBehaviour
 
                     //rb.velocity = Vector3.left * turnSpeed;
                     transform.Translate(Vector3.left * turnSpeed);
-                    //rb.AddForce(Vector3.left * pivotForce, ForceMode.Force);
+                    rb.AddForce(Vector3.left * pivotForce, ForceMode.Force);
 
 
                 }
 
             }
-
-            if (Mathf.Abs(transform.rotation.z) > (wifeFallTreshold))
-            {
-                isFallen = true;
-            }
+            
         }
 
-        if (isFallen)
-        {
-            Debug.Log("Fallen");
-            StartCoroutine(GettingUp());
-        }
+        
 
         if (debugEnabled)
         {
@@ -134,8 +147,8 @@ public class PlayerController : MonoBehaviour
                 transform.Translate(Vector3.right * turnSpeed);
                 //leftPivotRb.AddForce(Vector3.down * pivotForce, ForceMode.Acceleration);
                 //rightPivotRb.AddForce(Vector3.up * (pivotForce / 2), ForceMode.Acceleration);
-                //rb.AddForce(Vector3.right * pivotForce, ForceMode.Force);
-                //transform.Rotate(Vector3.right * pivotForce);
+                rb.AddForce(Vector3.right * pivotForce, ForceMode.Force);
+                //transform.Rotate(new Vector3(0,0,-1) * pivotForce);
             }
 
             if (Input.GetKey(KeyCode.A))
@@ -144,8 +157,8 @@ public class PlayerController : MonoBehaviour
                 transform.Translate(Vector3.left * turnSpeed);
                 //rightPivotRb.AddForce(Vector3.down * pivotForce, ForceMode.Acceleration);
                 //leftPivotRb.AddForce(Vector3.up * (pivotForce/2), ForceMode.Acceleration);
-                //rb.AddForce(Vector3.left * pivotForce, ForceMode.Force);
-                //transform.Rotate(Vector3.left * pivotForce);
+                rb.AddForce(Vector3.left * pivotForce, ForceMode.Force);
+                //transform.Rotate(new Vector3(0,0,1) * pivotForce);
             }
 
             if (Input.GetKeyDown(KeyCode.R))
@@ -160,7 +173,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.tag == "Goal")
         {
-            transform.DetachChildren();
+           //transform.DetachChildren();
            //rb.AddForce(Vector3.up * throwPower, ForceMode.Impulse);
             gameController.GoToScoreScene();
         }
@@ -170,7 +183,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Physics.IgnoreCollision(this.GetComponent<Collider>(), collision.gameObject.GetComponent<Collider>());
+            Physics.IgnoreCollision(GetComponent<BoxCollider>(), collision.gameObject.GetComponent<BoxCollider>());
         }
 
         if (collision.gameObject.tag == "Ground")
@@ -182,7 +195,7 @@ public class PlayerController : MonoBehaviour
     IEnumerator GettingUp()
     {
         yield return new WaitForSeconds(waitTime);
-
+        
         Instantiate(gameController.player, this.transform.position, Quaternion.identity);
         Destroy(this.gameObject);
 
