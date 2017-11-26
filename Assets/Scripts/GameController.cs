@@ -89,6 +89,8 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
+
+        Debug.Log("Hewwoo OwO");
         //scene = SceneManager.GetActiveScene();
         //anim = img.GetComponent<Animator>();
 
