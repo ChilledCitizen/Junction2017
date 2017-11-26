@@ -29,12 +29,12 @@ public class GameController : MonoBehaviour
         //DontDestroyOnLoad(this);
 
         scene = SceneManager.GetActiveScene();
-        anim = img.GetComponent<Animator>();
+        //anim = img.GetComponent<Animator>();
 
         Debug.Log("Hello");
 
        
-            img.gameObject.SetActive(true);
+            //img.gameObject.SetActive(true);
         
      
             Instantiate(player, new Vector3(0, spawnHeight, 6.5f), Quaternion.identity);

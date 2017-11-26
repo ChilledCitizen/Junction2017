@@ -780,6 +780,12 @@ Prefab:
       propertyPath: mapEnd
       value: 
       objectReference: {fileID: 269106335}
+    - target: {fileID: 114830889153589784, guid: 2c6cef8644b058a47b92ba38f3c8ae69,
+        type: 2}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 114685685307403996, guid: 4199a8205f68b764c8555077874039ec,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2c6cef8644b058a47b92ba38f3c8ae69, type: 2}
   m_IsPrefabParent: 0

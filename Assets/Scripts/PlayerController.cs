@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     public Vector3 fallStartLoc;
     private Vector3 deltaVector;
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         screenCenterX = Screen.width * 0.5f;
         fallChecker = GameObject.Find("FallChecker");
